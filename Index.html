@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMaster Workshops</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TechMaster Workshops</h1>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Workshops</a>
+                    <div class="dropdown-content">
+                        <a href="#arduino">Arduino</a>
+                        <a href="#python">Hands-on Python</a>
+                        <a href="#cpp">C++</a>
+                        <a href="#webdev">Web Development</a>
+                        <a href="#datasci">Data Science</a>
+                    </div>
+                </li>
+                <li><a href="#resources">Free Resources</a></li>
+                <li><a href="#projects">Student Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="careers.html" target="_blank">Careers</a></li>
+                <li><a href="about.html" target="_blank">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="arduino" class="workshop">
+            <h2>Arduino Workshop</h2>
+            <p>Join our 2-day Arduino workshop to learn the basics of electronics and programming. You'll get hands-on experience with Arduino boards, sensors, and actuators, and build your own projects.</p>
+            <button onclick="toggleDetails('arduino-details')">More Details</button>
+            <div id="arduino-details" class="details">
+                <p>In this workshop, you will:</p>
+                <ul>
+                    <li>Understand the basics of Arduino programming</li>
+                    <li>Work with various sensors and actuators</li>
+                    <li>Build and test your own Arduino projects</li>
+                    <li>Receive a comprehensive guide and resources</li>
+                </ul>
+                <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Workshops/Arduino Workshop.png" style="width: 35%; height: 35%;" alt="Arduino Workshop">
+                <a href="pdfs/arduino-brochure.pdf" class="brochure" download>Download Brochure</a>
+            </div>
+        </section>
+        <section id="python" class="workshop">
+            <h2>Hands-on Python Workshop</h2>
+            <p>Get hands-on experience with Python programming in this intensive 2-day workshop. Learn the fundamentals of Python, work on real-world projects, and enhance your coding skills.</p>
+            <button onclick="toggleDetails('python-details')">More Details</button>
+            <div id="python-details" class="details">
+                <p>In this workshop, you will:</p>
+                <ul>
+                    <li>Learn Python syntax and basic programming concepts</li>
+                    <li>Work on data analysis and visualization projects</li>
+                    <li>Develop scripts and applications</li>
+                    <li>Receive a comprehensive guide and resources</li>
+                </ul>
+                <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Workshops/Hands-on Python Workshop.png" style="width: 35%; height: 35%;" alt="Python Workshop">
+                <a href="pdfs/python-brochure.pdf" class="brochure" download>Download Brochure</a>
+            </div>
+        </section>
+        <section id="cpp" class="workshop">
+            <h2>C++ Workshop</h2>
+            <p>Enhance your C++ skills with our comprehensive 2-day workshop. Dive deep into object-oriented programming, data structures, and algorithms, and work on challenging projects.</p>
+            <button onclick="toggleDetails('cpp-details')">More Details</button>
+            <div id="cpp-details" class="details">
+                <p>In this workshop, you will:</p>
+                <ul>
+                    <li>Understand advanced C++ concepts</li>
+                    <li>Work on data structures and algorithms</li>
+                    <li>Develop complex applications</li>
+                    <li>Receive a comprehensive guide and resources</li>
+                </ul>
+                <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Workshops/C++ Workshop.png" style="width: 35%; height: 35%;" alt="C++ Workshop">
+                <a href="pdfs/cpp-brochure.pdf" class="brochure" download>Download Brochure</a>
+            </div>
+        </section>
+        <section id="webdev" class="workshop">
+            <h2>Web Development Workshop</h2>
+            <p>Learn the essentials of web development in this 2-day workshop. Covering HTML, CSS, and JavaScript, you'll build your own website from scratch and understand the basics of front-end development.</p>
+            <button onclick="toggleDetails('webdev-details')">More Details</button>
+            <div id="webdev-details" class="details">
+                <p>In this workshop, you will:</p>
+                <ul>
+                    <li>Learn HTML, CSS, and JavaScript</li>
+                    <li>Build and deploy a website</li>
+                    <li>Understand responsive design principles</li>
+                    <li>Receive a comprehensive guide and resources</li>
+                </ul>
+                <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Workshops/Web Development Workshop.png" style="width: 35%; height: 35%;" alt="Web Development Workshop">
+                <a href="pdfs/webdev-brochure.pdf" class="brochure" download>Download Brochure</a>
+            </div>
+        </section>
+        <section id="datasci" class="workshop">
+            <h2>Data Science Workshop</h2>
+            <p>Explore the world of data science in this 2-day workshop. Learn about data analysis, visualization, and machine learning using Python, and work on real-world datasets.</p>
+            <button onclick="toggleDetails('datasci-details')">More Details</button>
+            <div id="datasci-details" class="details">
+                <p>In this workshop, you will:</p>
+                <ul>
+                    <li>Learn data analysis and visualization techniques</li>
+                    <li>Work with machine learning algorithms</li>
+                    <li>Analyze real-world datasets</li>
+                    <li>Receive a comprehensive guide and resources</li>
+                </ul>
+                <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Workshops/Data Science Workshop.png" style="width: 35%; height: 35%;" alt="Data Science Workshop">
+                <a href="pdfs/datasci-brochure.pdf" class="brochure" download>Download Brochure</a>
+            </div>
+        </section>
+        <section id="common-details" class="highlight">
+            <h2>Workshop Details</h2>
+            <p><strong>Who Can Apply:</strong> Engineering diploma and degree students, BCA, BSc Computer Science students, and 12th grade students.</p>
+            <p><strong>Requirements:</strong> Microsoft Teams app, good internet connection, and your time.</p>
+            <p><strong>Cost:</strong> <span class="original-price">₹1249</span> <span class="discounted-price">₹499</span> <span class="discount">(60% off)</span></p>
+            <p><strong>Affordable Price:</strong> ₹499</p>
+            <p><strong>Seats:</strong> Limited to 25 members per batch (20 for Arduino)</p>
+            <p><strong>Certificate:</strong> Will be sent upon completion</p>
+            <p><strong>Mentors:</strong> 2 mentors per batch</p>
+        </section>
+        <section id="resources" class="highlight">
+            <h2>Free Basic Resources</h2>
+            <p>We believe in the power of free education. Here are some valuable resources to help you get started in these domains:</p>
+            <ul>
+                <li><a href="https://www.arduino.cc/en/Tutorial/HomePage" target="_blank">Arduino Tutorials</a></li>
+                <li><a href="https://www.learnpython.org/" target="_blank">Learn Python</a></li>
+                <li><a href="https://www.learn-cpp.org/" target="_blank">Learn C++</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp - Web Development</a></li>
+                <li><a href="https://www.kaggle.com/learn/overview" target="_blank">Kaggle - Data Science Courses</a></li>
+            </ul>
+            <p>Download our free PDFs for each domain:</p>
+            <ul>
+                <li><a href="pdfs/arduino.pdf" target="_blank">Arduino Basics PDF</a></li>
+                <li><a href="pdfs/python.pdf" target="_blank">Python Basics PDF</a></li>
+                <li><a href="pdfs/cpp.pdf" target="_blank">C++ Basics PDF</a></li>
+                <li><a href="pdfs/webdev.pdf" target="_blank">Web Development Basics PDF</a></li>
+                <li><a href="pdfs/datasci.pdf" target="_blank">Data Science Basics PDF</a></li>
+            </ul>
+        </section>
+        <section id="projects" class="highlight">
+            <h2>We Support Student Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Projects/Smart Home Automation System.png" style="width: 100%; height: 65%;" alt="Project 1">
+                    <h3>Smart Home Automation System</h3>
+                    <p>Our company provides hardware, guidance, and training to help students build a smart home automation system.</p>
+                </div>
+                <div class="project-card">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Projects/AI-Powered Health Monitoring System.png" style="width: 100%; height: 65%;" alt="Project 2">
+                    <h3>AI-Powered Health Monitoring System</h3>
+                    <p>We support students in developing AI-powered health monitoring systems with necessary resources and mentorship.</p>
+                </div>
+                <div class="project-card">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Projects/Autonomous Robotics Platform.png" style="width: 100%; height: 65%;" alt="Project 3">
+                    <h3>Autonomous Robotics Platform</h3>
+                    <p>Students can create autonomous robotics platforms with our expert guidance and comprehensive training.</p>
+                </div>
+            </div>
+            <p>We provide the necessary hardware, expert guidance, and comprehensive training. Students just need to bring their enthusiasm and effort to create and run actual models.</p>
+        </section>
+        <section id="blog" class="highlight">
+            <h2>Our Blog</h2>
+            <div class="blog-grid">
+                <div class="blog-post">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Blogs/Our Blog The Future of AI in Everyday Life.png" style="width: 100%; height: 65%;" alt="Blog 1">
+                    <h3>The Future of AI in Everyday Life</h3>
+                    <p>Explore how AI is transforming our daily lives and what the future holds for this exciting technology.</p>
+                </div>
+                <div class="blog-post">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Blogs/Top 10 Python Libraries for Data Science.png" style="width: 100%; height: 65%;" alt="Blog 2">
+                    <h3>Top 10 Python Libraries for Data Science</h3>
+                    <p>Discover the most popular Python libraries used in data science and how they can help you in your projects.</p>
+                </div>
+                <div class="blog-post">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Blogs/How to Get Started with Arduino.png" style="width: 100%; height: 65%;" alt="Blog 3">
+                    <h3>How to Get Started with Arduino</h3>
+                    <p>Learn the basics of Arduino and how to start building your own electronic projects.</p>
+                </div>
+                <div class="blog-post">
+                    <img src="C:/Users/PTHORAWA/Desktop/Workshop Website/Images/Blogs/Web Development Trends in 2024.png" style="width: 100%; height: 65%;" alt="Blog 4">
+                    <h3>Web Development Trends in 2024</h3>
+                    <p>Stay updated with the latest trends in web development and what to expect in the coming year.</p>
+                </div>
+            </div>
+        </section>
+        <section id="why-us" class="highlight">
+            <h2>Why Choose TechMaster Workshops?</h2>
+            <p>At TechMaster Workshops, we believe in providing high-quality, hands-on learning experiences. Our workshops are designed by industry experts to ensure you gain practical skills that are in demand. Here’s why you should choose us:</p>
+            <ul>
+                <li>Expert Instructors with Real-World Experience</li>
+                <li>Comprehensive Curriculum Covering Latest Technologies</li>
+                <li>Interactive and Engaging Learning Environment</li>
+                <li>Post-Workshop Support and Resources</li>
+                <li>Each workshop is delivered by experts having 3+ years of experience in corporate offices</li>
+            </ul>
+        </section>
+        <section id="benefits" class="highlight">
+            <h2>Benefits of Spending 2 Days with Us</h2>
+            <p>Our 2-day workshops are packed with value. Here’s what you’ll gain:</p>
+            <ul>
+                <li>Hands-On Experience with Cutting-Edge Tools and Technologies</li>
+                <li>Networking Opportunities with Like-Minded Individuals</li>
+                <li>Certificate of Completion to Boost Your Resume</li>
+                <li>Access to Exclusive Online Resources and Communities</li>
+            </ul>
+        </section>
+        <section id="video" class="highlight" style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center;">
+            <h2>Watch Our Intro Video</h2>
+            <video width="640" height="360" controls>
+                <source src="intro-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need more information, feel free to reach out to us at:</p>
+            <p>Email: info@techmasterworkshops.com</p>
+            <p>Phone: +91-123-456-7890</p>
+            <div class="social-media">
+                <p>Follow us:</p>
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://twitter.com" target="_blank">Twitter</a> |
+                <a href="https://instagram.com" target="_blank">Instagram</a> |
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+        <p>&copy; 2024 TechMaster Workshops. All rights reserved.</p>
+        <p>Made with ❤️ by TechMaster Workshops</p>
+    </footer>
+</body>
+</html>
